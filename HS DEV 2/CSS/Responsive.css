@@ -1,0 +1,104 @@
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 25px;
+    background-color: white;
+    height: 3px;
+    margin: 5px 3px;
+}
+
+/* console */
+
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+    font-family: 'Bruno Ace', cursive;
+    font-size:27px;
+    text-align:center;
+    height:200px;
+    width:600px;
+    display:block;
+    position:absolute;
+    color:white;
+    top:0;
+    bottom:400px;
+    left:0;
+    right:25px;
+    margin:auto;
+  }
+  .console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 447px;
+        flex-direction: column;
+        transition: all 1.2s ease-out;
+    }
+    .rightnav{
+        text-align: center;
+        position: absolute;
+        bottom: 5px;
+    }
+    .nav-list li{
+        padding: 16px 30px;
+        position: relative;
+        bottom: 28px;
+    }
+    .box-main{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+        top: 10px;
+    }
+    .h-nav-resp{
+        height: 50px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 10px;
+        width: 35%;
+    }
+    .Section{
+        flex-direction: column-reverse;
+    }
+    .section-Left{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-medium{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+}
